@@ -5,7 +5,7 @@ def reverse_each_word(string)
     array_of_letters = element.split('')
     reversed_letters = array_of_letters.reverse
     new_word = reversed_letters.join()
-    
+
   end
   new_word
 end
