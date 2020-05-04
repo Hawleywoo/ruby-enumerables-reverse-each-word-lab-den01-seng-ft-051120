@@ -9,8 +9,9 @@ def reverse_each_word(string)
     new_word = reversed_letters.join()
     new_array << new_word
     new_string = new_array.join(' ')
+    puts new_string
   end
-  puts new_string
+  new_string
 end
 
 reverse_each_word("hello world")
