@@ -4,7 +4,7 @@ def reverse_each_word(string)
   array = string.split(/ /)
   puts array
   array.collect do |element|
-  
+
     reversed_letters = array_of_letters.reverse
     new_word = reversed_letters.join()
 
