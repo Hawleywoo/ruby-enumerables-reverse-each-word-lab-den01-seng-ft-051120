@@ -7,7 +7,7 @@ def reverse_each_word(string)
     new_word = reversed_letters.join()
 
   end
-  new_word
+  puts new_word
 end
 
 reverse_each_word("hello world")
