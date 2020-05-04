@@ -7,7 +7,7 @@ def reverse_each_word(string)
     letters = element.split('')
     reversed_letters = letters.reverse
     new_word = reversed_letters.join()
-    
+    puts new_word
 
   end
   new_word
