@@ -1,11 +1,11 @@
 def reverse_each_word(string)
   new_array = []
   array = string.split(//)
-  puts array
   array.collect do |element|
-    reversed_letters = array.reverse
+    array_of_letters = element.split('')
+    reversed_letters = array_of_letters.reverse
     new_word = reversed_letters.join()
-    puts new_word
+    
   end
   new_word
 end
